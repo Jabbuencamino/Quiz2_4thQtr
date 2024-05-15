@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Areas you must see in the Phillipines!</title>
+	<style>
+		body{ 
+			background-color:#808080;
+			background-image: url("blackbg.jpg");
+			background-attachment: fixed;
+			text-align: center;
+			}
+ 		h1, p, h2, p1{ color:#FFFFFF
+ }
+	
+		.main-page { 
+			display:flex;
+			flex-wrap: wrap;
+			padding-left:100px ;
+			padding-right:100px ;
+			justify-content: center;
+	   	}
+	  
+ /* .container {
+		  display: grid; 
+		  grid-template-columns: 1fr 1.1fr 0.9fr; 
+		  grid-template-rows: 1fr 1fr 1fr; 
+		  gap: 7px 7px; 
+		  grid-template-areas: 
+		    "text1 img2 text3"
+		    "img1 text2 img3"
+		    ". . ."; 
+		}*/
+.text { grid-area: text1;
+			width: 225px;
+			background-color:#808080;
+			padding: 10px;
+			margin: 10px; }
+
+.img { grid-area: img2; 
+			width: 225px;
+			background-color:#808080;
+			padding: 10px;
+			margin: 10px;}
+
+	img {
+		width: 100%;
+	}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Photo Gallery</h1>
+	
+		<p>Phillipines is one of the best areas to tour when you wanna tour around the world.</p>
+		<p>The country has so many beautiful places to explore some of them can be mountains, Oceans,</p>
+		<p>Structures, and more. They have so much cultural places too, and even historical areas to see</p>
+
+		<p>Here are atleast 6 areas you should atleast visit!</p>
+	</div>
+
+	<div class="main-page">
+		<div class="text">
+			<h2>Mayon Volcano</h2>
+			<p1> The Mayon Volcano is a very old volcano that destroyed nearby towns and even destroyed the baroque church, It last erupted in 1814</p1>
+		</div>
+
+		<div class="img">
+			<img src="Volcano1.jpg" alt="A beautiful Volcano" width="215">
+		</div>
+
+		<div class="text">
+			<h2> Puerto Princesa Underground River</h2>
+			<p1>This tourism spot is a underground river where you go through a cave with a paddle boat.</p1>
+		</div>
+
+		<div class="img"><img src="river.jpg" alt="A spooky but nice river in a cave." width="215"></div>
+
+		<div class= "text">
+			<h2>Chocolate Hills</h2>
+			<p1>Hills that look like chocolate, they are a amazing area to see since the Chocolate hills literally is an area that the hills look like chocolate. (Ps: Dont eat it please)</p1>
+		</div>
+	
+		<div class= "img"><img src="hills.jpg" alt="Hills that look like chocolate definately not safe to eat." width="215"></div>
+
+	  <div class= "text">
+			<h2> Calle Crisologo, Vigan</h2>
+			<p1>A town that is stuck in the 16th centuary, it's a nice place to sight see and even better at night.</p1>
+		</div>
+		
+		<div class= "img"><img src="oldtown.avif" alt="A 16th centuary old town that even nicer at nice" width="215"></div>
+
+	  <div class= "text">
+			<h2> Tubbataha Reef, Palawan</h2>
+			<p1>A coral reef, it's a top spot for divers around the world, its a very beautiful to see too, a lot fishes to even identify.</p1>
+		</div>
+		
+		<div class= "img"><img src="reef.avif" alt="A beautiful coral reef with tons of fishes you can visit." width="215"></div>
+
+	  <div class= "text">
+			<h2> Kawasan Falls, Cebu</h2>
+			<p1>a beautiful area with water falls and a lake in the bottom a very good natural area to swim in and enjoy yourself.</p1>
+		</div>
+		
+		<div class= "img"><img src="falls.avif" alt="A beautiful lake in the middle with nice water falls on the sides." width="215"></div>
+	</div>
+
+</body>
+</html>
